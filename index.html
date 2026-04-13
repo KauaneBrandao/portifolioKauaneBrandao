@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="light">
+
+  
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#sobre" class="nav-brand">Kauane Brandão</a>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#sobre" class="nav-link active">Sobre mim</a>
+        <a href="#habilidades" class="nav-link">Habilidades</a>
+        <a href="#experiencias" class="nav-link">Experiências</a>
+        <a href="#projetos" class="nav-link">Projetos</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-btn" id="themeBtn" aria-label="Alternar tema">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <button class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="hero" id="sobre">
+    <div class="hero-container">
+      <div class="hero-left">
+        <p class="hero-greeting">Olá, eu sou</p>
+        <h1 class="hero-name">Kauane<span class="dot">.</span></h1>
+        <p class="hero-desc">
+         Tenho 19 anos e sou engenheira de dados em formação, apaixonada por dados e por transformar informação em soluções inteligentes. Atualmente, sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> na São Judas e formada como técnica em Desenvolvimento de Sistemas pela ETEC de Guaianases, sempre em busca de aprimorar minhas habilidades e criar soluções com impacto.
+        </p>
+        <div class="hero-actions">
+          <a href="docs/Currículo- Kauane Brandão  (1).pdf" class="btn-download">
+            <i class="fa-solid fa-download"></i> Baixar Currículo
+          </a>
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/kauanebrand%C3%A3o/" target="_blank" class="social-icon" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/KauaneBrandao" target="_blank" class="social-icon" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:kauanebrandao14@gmail.com" class="social-icon" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+<div class="hero-right">
+  <div class="hero-avatar-wrap">
+    <div class="avatar-glow"></div>
+
+    <div class="avatar-circle">
+      <img src="img/kaua.png" alt="Foto da Kauane" class="avatar-img">
+    </div>
+    <div class="avatar-accent"></div>
+  </div>
+</div>
+  </section>
+
+  <!--habilidades-->
+  <section class="section" id="habilidades">
+    <div class="section-container">
+      <div class="section-header center">
+        <h2 class="section-title">Habilidades<span class="dot">.</span></h2>
+        <p class="section-subtitle">Tecnologias e ferramentas que utilizo no dia a dia</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Front-end -->
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3 class="skill-card-title">Front-end</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="tech-icon"/>HTML</span>
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="tech-icon"/>CSS</span>
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" class="tech-icon"/>JavaScript</span>
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="tech-icon"/>React Native</span>
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" class="tech-icon"/>Bootstrap</span>
+          </div>
+        </div>
+
+        <!-- Back-end -->
+        <div class="skill-card reveal reveal-d1">
+          <div class="skill-card-icon">
+            <i class="fa-solid fa-server"></i>
+          </div>
+          <h3 class="skill-card-title">Back-end</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="tech-icon"/>Java</span>
+            <span class="skill-tag"><span class="emoji-icon">🔴</span>Laravel</span>
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" class="tech-icon"/>PHP</span>
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="tech-icon"/>Python</span>
+          </div>
+        </div>
+        
+        <!-- Banco de Dados -->
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <h3 class="skill-card-title">Banco de Dados</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><span class="emoji-icon">🎲</span>SQL Server</span>
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="tech-icon"/>MySQL</span>
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="tech-icon"/>MongoDB</span>
+          </div>
+        </div>
+
+        <!-- Ferramentas -->
+        <div class="skill-card reveal reveal-d1">
+          <div class="skill-card-icon">
+            <i class="fa-solid fa-wrench"></i>
+          </div>
+          <h3 class="skill-card-title">Ferramentas</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="tech-icon"/>Git</span>
+            <span class="skill-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="tech-icon git-icon"/>GitHub</span>
+            <span class="skill-tag"><span class="emoji-icon databricks">🧱</span>Databricks</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EXPERIÊNCIAS ═══ -->
+  <section class="section bg-alt" id="experiencias">
+    <div class="section-container">
+      <div class="section-header center">
+        <h2 class="section-title">Experiências<span class="dot">.</span></h2>
+        <p class="section-subtitle">Minha trajetória acadêmica e profissional</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Item 1 -->
+        <div class="timeline-item left reveal">
+          <div class="timeline-card">
+            <h3 class="tl-title">Técnico em Desenvolvimento de Sistemas</h3>
+            <p class="tl-org">ETEC de Guaianases</p>
+            <p class="tl-period">Concluído</p>
+            <p class="tl-desc">Formação técnica com foco em desenvolvimento de software.</p>
+          </div>
+          <div class="timeline-node">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-spacer"></div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item right reveal reveal-d1">
+          <div class="timeline-spacer"></div>
+          <div class="timeline-node">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-card">
+            <h3 class="tl-title">Análise e Desenvolvimento de Sistemas</h3>
+            <p class="tl-org">Universidade São Judas Tadeu</p>
+            <p class="tl-period">Em andamento</p>
+            <p class="tl-desc">Graduação com foco em engenharia de software, estruturas de dados e desenvolvimento web.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="timeline-item left reveal">
+          <div class="timeline-card">
+            <span class="tl-badge">Experiência atual</span>
+            <h3 class="tl-title">Estágio em Engenharia de Dados</h3>
+            <p class="tl-org">Banco Santander</p>
+            <p class="tl-period">Atual</p>
+            <p class="tl-desc">Atuação com pipelines de dados, ETL e ferramentas como Databricks, Pyspark e SQL.</p>
+          </div>
+          <div class="timeline-node active">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+          <div class="timeline-spacer"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJETOS ═══ -->
+  <section class="section" id="projetos">
+    <div class="section-container">
+      <div class="section-header center">
+        <h2 class="section-title">Projetos<span class="dot">.</span></h2>
+        <p class="section-subtitle">Trabalhos acadêmicos e projetos pessoais</p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-img">
+            <div class="project-img-placeholder">
+              <div class="code-bg">
+                <div class="code-line w80"></div>
+                <div class="code-line w60"></div>
+                <div class="code-line w90"></div>
+                <div class="code-line w50"></div>
+                <div class="code-line w70"></div>
+                <div class="code-line w85"></div>
+              </div>
+              <div class="monitor-glow"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">TCC — Trabalho de Conclusão de Curso</h3>
+            <p class="project-desc">Help House - Um sistema, com duas interfaces mobile (cliente e prestador) e sistema administrativo web para facilitar a conexão entre prestadores de serviço e usuários.</p>
+            <a href="https://github.com/Guilherme-S-Mesquita/appProHelpHouse" class="project-link">Ver projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card coming-soon reveal reveal-d1">
+          <div class="project-coming-inner">
+            <i class="fa-regular fa-clock"></i>
+            <h3>Mais projetos em breve...</h3>
+            <p>Novos projetos estão sendo desenvolvidos e serão adicionados aqui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTATO ═══ -->
+  <section class="section bg-alt" id="contato">
+    <div class="section-container">
+      <div class="section-header center">
+        <h2 class="section-title">Contato<span class="dot">.</span></h2>
+        <p class="section-subtitle">Vamos conversar? Entre em contato!</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info reveal">
+          <h3 class="contact-info-title">Informações de contato</h3>
+          <div class="contact-items">
+            <a href="mailto:kaubrandao14@gmail.com" class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <span>kaubrandao14@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/kauanebrand%C3%A3o/" target="_blank" class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://wa.me/5511947257966" target="_blank" class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <span>WhatsApp</span>
+            </a>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <span>São Paulo, SP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal reveal-d1">
+          <div class="contact-form-card">
+            <h3 class="contact-form-title">Envie uma mensagem</h3>
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <input type="text" id="nome" placeholder="Nome" />
+                <span class="ferr" id="nome-err"></span>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Email" />
+                <span class="ferr" id="email-err"></span>
+              </div>
+              <div class="form-group">
+                <textarea id="mensagem" rows="5" placeholder="Mensagem"></textarea>
+                <span class="ferr" id="mensagem-err"></span>
+              </div>
+              <button type="submit" class="btn-send" id="sendBtn">
+                <span class="send-text"><i class="fa-solid fa-paper-plane"></i> Enviar mensagem</span>
+                <span class="send-loading" style="display:none"><i class="fa-solid fa-spinner fa-spin"></i> Enviando...</span>
+              </button>
+              <div class="form-msg" id="formMsg" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <p>Desenvolvido com <i class="fa-solid fa-heart"></i> por <strong>Kauane Brandão</strong></p>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
